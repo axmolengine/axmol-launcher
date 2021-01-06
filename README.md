@@ -10,7 +10,7 @@ https://gitee.com/c4games/engine-x  (because gitee repo sync failed with too lar
 * Cpp Project: ```cocos new -p cppgame.c4games.com -d D:\dev\projects\ -l cpp --portrait CppGame```
 * Lua Project: ```cocos new -p luagame.c4games.com -d D:\dev\projects\ -l lua --portrait LuaGame```
 
-## apk min size release(only contains armv7a arch)
+## Android: apk min size release(only contains armv7a arch)
 - CppGame-release.apk(3.34MB)
 
 ## Choose render backend
@@ -24,15 +24,18 @@ https://gitee.com/c4games/engine-x  (because gitee repo sync failed with too lar
   - osx: NSGL
   - ios: GLES
 
-## Physics engines information
-*CC_ENABLE_BOX2D_INTEGRATION* and *CC_ENABLE_CHIPMUNK_INTEGRATION* is no longer used 
-(Only part of the engine-x for backwards compatibility with class PhysicsSprite)
+## 2d physics engines informations
+## Chipmunk2D engine (Ccp Test: Chipmunk2D - Basic)
+Use class PhysicsSpriteChipmunk2D 
+(Class PhysicsSprite can be use with *CC_ENABLE_CHIPMUNK_INTEGRATION* 1)
 
-## Chipmunk2D engine (see Ccp Test: Chipmunk2D - Basic)
-Use class PhysicsSpriteChipmunk2D (Class PhysicsSprite is at the moment no longer useful)
+## Box2D engine (Ccp Test: Box2D - Basic)
+Use class PhysicsSpriteBox2D 
+(Class PhysicsSprite can be use with *CC_ENABLE_BOX2D_INTEGRATION* 1)
 
-## Box2D engine (see Ccp Test: Box2D - Basic)
-Use class PhysicsSpriteBox2D (Class PhysicsSprite is at the moment no longer useful)
+## Engine-x 2D physics integration API (Ccp Test: Node: Physics)
+It using Chipmunk2D as internal 2D physics engine
 
-## Engine-x internal Physics engine (see Ccp Test: Node: Physics)
-It used Chipmunk2D as internal2D physics engine
+##Outdated/Abandom:
+class PhysicsSprite, only part of the engine-x for backwards compatibility with Cocos2d-x
+*CC_ENABLE_BOX2D_INTEGRATION*/*CC_ENABLE_CHIPMUNK_INTEGRATION* are only used with class PhysicsSprite.
