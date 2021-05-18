@@ -1,10 +1,7 @@
-# Welcome to the engine-x Wiki, another fork of Cocos2d-x (4.0)
+# The adxeproject, another fork of Cocos2d-x (4.0)
 
 ## Purpose:
 **Make Cocos2d-x better**
-
-## gitee repo:  
-https://gitee.com/c4games/engine-x  (because gitee repo sync failed with too large, please upstream github always)
 
 ## New project (python2 or python3 works)
 * Cpp Project: ```cocos new -p cppgame.c4games.com -d D:\dev\projects\ -l cpp --portrait CppGame```
