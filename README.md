@@ -4,8 +4,8 @@
 **Make Cocos2d-x better**
 
 ## New project (python2 or python3 works)
-* Cpp Project: ```cocos new -p cppgame.c4games.com -d D:\dev\projects\ -l cpp --portrait CppGame```
-* Lua Project: ```cocos new -p luagame.c4games.com -d D:\dev\projects\ -l lua --portrait LuaGame```
+* Cpp Project: ```adxe new -p cppgame.c4games.com -d D:\dev\projects\ -l cpp --portrait CppGame```
+* Lua Project: ```adxe new -p luagame.c4games.com -d D:\dev\projects\ -l lua --portrait LuaGame```
 
 ## Android: apk min size release (only contains armv7a arch)
 - CppGame-release.apk (3.34MB)
