@@ -30,7 +30,7 @@
   - Use class PhysicsSpriteBox2D 
     - (Class PhysicsSprite can be use with CC_ENABLE_BOX2D_INTEGRATION 1)
 
-- **Engine-x 2D physics integration API** (Ccp Test: Node: Physics)
+- **adxe 2D physics integration API** (Ccp Test: Node: Physics)
   - It using Chipmunk2D as internal 2D physics engine
 
 - **Outdated/Abandom**:
