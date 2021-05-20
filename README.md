@@ -34,5 +34,5 @@
   - It using Chipmunk2D as internal 2D physics engine
 
 - **Outdated/Abandom**:
-  - class PhysicsSprite: Be only part of the engine-x for backwards compatibility with Cocos2d-x.
+  - class PhysicsSprite: Be only part of the adxe for backwards compatibility with Cocos2d-x.
     - **CC_ENABLE_BOX2D_INTEGRATION** / **CC_ENABLE_CHIPMUNK_INTEGRATION** are only used on class PhysicsSprite.
