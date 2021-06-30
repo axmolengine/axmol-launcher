@@ -22,15 +22,15 @@
   - ios: GLES
 
 ## 2D Physics Engines Informations:
-- **Chipmunk2D** engine (Ccp Test: Chipmunk2D - Basic)
+- **Chipmunk2D** engine (Cpp Test: Chipmunk2D - Basic)
   - Use class PhysicsSpriteChipmunk2D 
     - (Class PhysicsSprite can be use with CC_ENABLE_CHIPMUNK_INTEGRATION 1)
 
-- **Box2D** engine (Ccp Test: Box2D - Basic)
+- **Box2D** engine (Cpp Test: Box2D - Basic)
   - Use class PhysicsSpriteBox2D 
     - (Class PhysicsSprite can be use with CC_ENABLE_BOX2D_INTEGRATION 1)
 
-- **adxe 2D physics integration API** (Ccp Test: Node: Physics)
+- **adxe 2D physics integration API** (Cpp Test: Node: Physics)
   - It using Chipmunk2D as internal 2D physics engine
 
 - **Outdated/Abandom**:
