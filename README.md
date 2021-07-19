@@ -23,18 +23,17 @@
 
 ## 2D Physics Engines Informations:
 - **Chipmunk2D** engine (Cpp Test: Chipmunk2D - Basic) 
-  - Use class PhysicsSpriteChipmunk2D (Class PhysicsSprite can be use with CC_ENABLE_CHIPMUNK_INTEGRATION 1)
+  - Use class PhysicsSpriteChipmunk2D 
 - **Box2D** engine (Cpp Test: Box2D - Basic)
-  - Use class PhysicsSpriteBox2D (Class PhysicsSprite can be use with CC_ENABLE_BOX2D_INTEGRATION 1)
+  - Use class PhysicsSpriteBox2D 
 - **adxe 2D physics integration API** (Cpp Test: Node: Physics)
   - It using Chipmunk2D as internal 2D physics engine
 
-- **Outdated/Abandom**:
-  - class PhysicsSprite: Be only part of the adxe for backwards compatibility with Cocos2d-x.
-    **CC_ENABLE_BOX2D_INTEGRATION** / **CC_ENABLE_CHIPMUNK_INTEGRATION** are only used on class PhysicsSprite.
+- **Outdated/Abandom/Cocos2d-x**:
+  - class PhysicsSprite: Be only part of the adxe for backwards compatibility with Cocos2d-x. Can be use with CC_ENABLE_BOX2D_INTEGRATION 1 (using Box2D) or with CC_ENABLE_CHIPMUNK_INTEGRATION 1 (using Chipmunk2D)
 
 ## Chipmunk2D/Box2D Testbeds:
 The goals where: 
-- Using the original source file of the testbeds as possible. 
-- Don't make the source file perfect adapted to adxe (it is no improvement for adxe).
+- Using the original source files of the testbeds as possible. 
+- Don't make the source files perfect adapted to adxe (it's not needed for adxe).
 - Give "a short view" to the Testbeds examples.
