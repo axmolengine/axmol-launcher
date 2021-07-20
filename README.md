@@ -7,7 +7,7 @@
 * Cpp Project: ```adxe new -p cppgame.c4games.com -d D:\dev\projects\ -l cpp --portrait CppGame```
 * Lua Project: ```adxe new -p luagame.c4games.com -d D:\dev\projects\ -l lua --portrait LuaGame```
 
-## Android: apk min size release (only contains armv7a arch)
+## Android: apk min size release (adxe 1.0 beta1, only contains armv7a arch)
 - CppGame-release.apk (3.34MB)
 
 ## Choose render backend
