@@ -26,6 +26,8 @@
   - Use class PhysicsSpriteChipmunk2D 
 - **Box2D** engine (Cpp Test: Box2D - Basic)
   - Use class PhysicsSpriteBox2D 
+- **Box2D-optimized (This project is currently in alpha, work in progress)
+  - adxe add Box2D-optimized for your own tests
 - **adxe 2D physics integration API** (Cpp Test: Node: Physics)
   - It using Chipmunk2D as internal 2D physics engine
 
