@@ -21,18 +21,24 @@
   - osx: NSGL
   - ios: GLES
 
-## 2D Physics Engines Informations:
+## 2D Physics Engines informations:
 - **Chipmunk2D** engine (Cpp Test: Chipmunk2D - Basic) 
   - Use class PhysicsSpriteChipmunk2D 
+  
 - **Box2D** engine (Cpp Test: Box2D - Basic)
   - Use class PhysicsSpriteBox2D 
-- **Box2D-optimized (This project is currently in alpha, work in progress)
-  - adxe add Box2D-optimized for your own tests
+  
+- **Box2D-optimized (This project is currently in alpha)
+  - adxe add Box2D-optimized for your own tests 
+  - Use cmake option: OPT_BOX2D_OPTIMIZED=ON to enable it on "adxe\thirdparty\CMakeLists.txt")
+
+  
 - **adxe 2D physics integration API** (Cpp Test: Node: Physics)
   - It using Chipmunk2D as internal 2D physics engine
 
 - **Outdated/Abandom/Cocos2d-x**:
-  - class PhysicsSprite: Be only part of the adxe for backwards compatibility with Cocos2d-x. Can be use with CC_ENABLE_BOX2D_INTEGRATION 1 (using Box2D) or with CC_ENABLE_CHIPMUNK_INTEGRATION 1 (using Chipmunk2D)
+  - class PhysicsSprite: Be only part of the adxe for backwards compatibility with Cocos2d-x.
+Can be use with CC_ENABLE_BOX2D_INTEGRATION 1 (using Box2D) or with CC_ENABLE_CHIPMUNK_INTEGRATION 1 (using Chipmunk2D)
 
 ## Chipmunk2D/Box2D Testbeds:
 The goals where: 
