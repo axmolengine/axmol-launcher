@@ -38,10 +38,11 @@
 
 - **Outdated/Abandom/Cocos2d-x**:
   - class PhysicsSprite: Be only part of the adxe for backwards compatibility with Cocos2d-x.
-Can be use with CC_ENABLE_BOX2D_INTEGRATION 1 (using Box2D) or with CC_ENABLE_CHIPMUNK_INTEGRATION 1 (using Chipmunk2D)
+Use CC_ENABLE_BOX2D_INTEGRATION 1 (using Box2D) or CC_ENABLE_CHIPMUNK_INTEGRATION 1 (using Chipmunk2D)
 
-## Chipmunk2D/Box2D Testbeds:
+## Chipmunk2D-/Box2D - Testbeds:
 The goals where: 
 - Using the original source files of the testbeds as possible. 
-- Don't make the source files perfect adapted to adxe (it's not needed for adxe).
-- Give "a short view" to the Testbeds examples.
+- Let the original source files be the original sources as much as possible (it's not needed for adxe).
+- Give "a small view" to the Testbed examples.
+- Please remind: Not all 'Box2D - TestBed' demos working full at the moment (because of different keyboard implementation).
