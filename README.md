@@ -43,6 +43,6 @@ Use CC_ENABLE_BOX2D_INTEGRATION 1 (using Box2D) or CC_ENABLE_CHIPMUNK_INTEGRATIO
 ## Chipmunk2D-/Box2D - Testbeds:
 The goals where: 
 - Using the original source files of the testbeds as possible. 
-- Let the original source files be the original sources as much as possible (it's not needed for adxe).
+- Let the original source files be the original sources as much as possible.
 - Give "a small view" to the Testbed examples.
-- Please remind: Not all 'Box2D - TestBed' demos working full at the moment (because of different keyboard implementation).
+- Please remind: Not all 'Box2D - TestBed' demos working full at the moment (because of different keyboard implementation, mouse buttons has some lags also).
