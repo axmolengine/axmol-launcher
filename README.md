@@ -48,7 +48,7 @@ The goals where:
 - Please remind: Not all 'Box2D - TestBed' demos working full at the moment (because of different keyboard implementation, mouse buttons has some lags also).
 
 ## Support for custom texture atlas (sprite sheet) formats
-- Default sprite sheet format is PLIST v3, which is what TexturePacker outputs when you select the "Cocos2d-x" option
+- Default sprite sheet format is PLIST v3.  This is the format that the `TexturePacker` application outputs when you select the "Cocos2d-x" option.
 - Custom sprite sheet format reader is created by implementing the `SpriteSheetLoader` interface, then registering this implementation by calling `SpriteFrameCache::registerSpriteSheetLoader()`.
 - Custom SpriteSheetLoader must have a unique identifier, which is assigned by using the `SpriteSheetFormat::CUSTOM` as the base value. For example, `MyFormatId = SpriteSheetFormat::CUSTOM + 10`.
 - In cpp-tests, SpriteFrameCache test has an implementation of a JSON sprite sheet format loader, implemented with the name `GenericJsonArraySpriteSheetLoader`. View this example and the default `PlistSpriteSheetLoader` for examples on how to implement the `SpriteSheetLoader` interface.
