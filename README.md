@@ -28,7 +28,7 @@
 - **Box2D** engine (Cpp Test: Box2D - Basic)
   - Use class PhysicsSpriteBox2D 
   
-- **Box2D-optimized (This project is currently in alpha)
+- **Box2D-optimized** (This project is currently in alpha)
   - adxe add Box2D-optimized for your own tests 
   - Use cmake option: OPT_BOX2D_OPTIMIZED=ON to enable it on "adxe\thirdparty\CMakeLists.txt")
 
