@@ -1,6 +1,6 @@
 # The adxeproject, another fork of Cocos2d-x (4.0)
 
-- adxe: *A*dvance*d* researching cocos2d-*x* *e*ngine
+- adxe: **A**dvance**d** researching cocos2d-**x** **e**ngine
 
 ## Purpose:
 **Make Cocos2d-x better**
