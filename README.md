@@ -6,8 +6,8 @@
 **Make Cocos2d-x better**
 
 ## New project (python2 or python3 works)
-* Cpp Project: ```adxe new -p org.adxe.hellocpp -d D:\dev\projects\ -l cpp --portrait CppGame```
-* Lua Project: ```adxe new -p org.adxe.hellolua -d D:\dev\projects\ -l lua --portrait LuaGame```
+* Cpp Project: ```adxe new -p org.adxe.hellocpp -d D:\dev\projects\ -l cpp --portrait HelloCpp```
+* Lua Project: ```adxe new -p org.adxe.hellolua -d D:\dev\projects\ -l lua --portrait HelloLua```
 
 ## Android: apk min size release (adxe 1.0 beta1, only contains armv7a arch)
 - CppGame-release.apk (3.34MB)
