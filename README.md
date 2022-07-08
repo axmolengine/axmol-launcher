@@ -1,3 +1,3 @@
-# The adxe-launcher
+# The axis-launcher
 
 
