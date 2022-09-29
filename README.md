@@ -1,3 +1,3 @@
-# The axys-launcher
+# The axmol-launcher
 
 
